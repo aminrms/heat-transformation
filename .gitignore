@@ -1,0 +1,63 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Python virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Mac OS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest and coverage reports
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Python package manager caches
+pip-wheel-metadata/
+*.dist-info/
+
+# Test and coverage artifacts
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pyc
+*.pyo
+
+# Other files that might be relevant for your environment
+*.swp
+*.bak
+*.tmp
+
+# Matplotlib settings for figures
+*.png
+*.pdf
+
+# Tkinter GUI specific settings
+*.log
+
+# Configuration files for environment-specific settings (adjust as needed)
+config.json
