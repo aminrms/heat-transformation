@@ -18,7 +18,7 @@ python -m venv venv
 
 # Activate the virtual environment
 echo "Activating virtual environment..."
-source venv/bin/activate
+source venv/Scripts/activate
 
 # Step 2: Install required packages
 if [ ! -f requirements.txt ]; then
