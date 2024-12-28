@@ -28,7 +28,7 @@ if [ ! -f requirements.txt ]; then
 fi
 
 echo "Installing required packages..."
-pip install --upgrade pip
+# pip install --upgrade pip
 pip install -r requirements.txt
 
 # Step 3: Check if PyInstaller is installed, if not, install it
